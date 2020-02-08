@@ -2,5 +2,5 @@
 
 Start the loop
 ```bash
-curl -s https://raw.githubusercontent.com/ShubhamTatvamasi/docker-pull-loop/master/run.sh | bash
+nohup curl -s https://raw.githubusercontent.com/ShubhamTatvamasi/docker-pull-loop/master/run.sh | bash &>/dev/null &
 ```
